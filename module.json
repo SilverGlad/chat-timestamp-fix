@@ -1,0 +1,18 @@
+{
+  "name": "chat-timestamp-fix",
+  "title": "Chat Timestamp Fix",
+  "description": "For\u00e7a o uso do timestamp do GM para padronizar a ordem do chat.",
+  "version": "1.0.0",
+  "author": "Nicolas + ChatGPT",
+  "esmodules": [
+    "scripts/fix-timestamp.js"
+  ],
+  "minimumCoreVersion": "10",
+  "compatibleCoreVersion": "13",
+  "scripts": [],
+  "styles": [],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "type": "module"
+}
