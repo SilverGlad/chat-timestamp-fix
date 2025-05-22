@@ -1,4 +1,5 @@
 {
+  "id": "chat-timestamp-fix",
   "name": "chat-timestamp-fix",
   "title": "Chat Timestamp Fix",
   "description": "Força o uso do timestamp do GM para padronizar a ordem do chat.",
