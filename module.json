@@ -1,18 +1,16 @@
 {
   "name": "chat-timestamp-fix",
   "title": "Chat Timestamp Fix",
-  "description": "For\u00e7a o uso do timestamp do GM para padronizar a ordem do chat.",
+  "description": "Força o uso do timestamp do GM para padronizar a ordem do chat.",
   "version": "1.0.0",
   "author": "Nicolas + ChatGPT",
-  "esmodules": [
-    "scripts/fix-timestamp.js"
-  ],
+  "esmodules": ["scripts/fix-timestamp.js"],
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "13",
   "scripts": [],
   "styles": [],
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/SilverGlad/chat-timestamp-fix",
+  "manifest": "https://raw.githubusercontent.com/SilverGlad/chat-timestamp-fix/main/module.json",
+  "download": "https://github.com/SilverGlad/chat-timestamp-fix/archive/refs/heads/main.zip",
   "type": "module"
 }
