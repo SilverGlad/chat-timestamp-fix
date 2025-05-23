@@ -3,7 +3,7 @@
   "name": "chat-timestamp-fix",
   "title": "Chat Timestamp Fix (UTC-3)",
   "description": "Painel alternativo de chat com horário UTC-3 e ordenação correta.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Nicolas + ChatGPT",
   "minimumCoreVersion": "10",
   "compatibleCoreVersion": "13",

@@ -62,21 +62,21 @@ class ChatTimestampFixPanel extends Application {
   }
 }
 
+
 Hooks.once("ready", () => {
   game.modules.get(MODULE_ID).api = {
     open: () => new ChatTimestampFixPanel().render(true)
   };
 
-  // Botão para abrir o painel no topo da interface
-  Hooks.on("renderSceneControls", () => {
-    if (document.querySelector(".chat-timestamp-fix-btn")) return;
-    const button = document.createElement("button");
-    button.innerHTML = "🕓 Chat UTC-3";
-    button.classList.add("chat-timestamp-fix-btn");
-    button.style.marginLeft = "10px";
-    button.onclick = () => new ChatTimestampFixPanel().render(true);
+  // Botão inserido na barra lateral de controles da cena
+    Hooks.on("getSceneControlButtons", (controls) => {
+    controls.push({
+        name: "chat-timestamp-fix",
+        title: "Chat UTC-3",
+        icon: "fas fa-clock",
+        button: true,
+        onClick: () => new ChatTimestampFixPanel().render(true)
+    });
+    });
 
-    const controls = document.querySelector("#ui-top .control-tools");
-    if (controls) controls.appendChild(button);
-  });
 });
