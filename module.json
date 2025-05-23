@@ -1,4 +1,5 @@
 {
+  "id": "chat-timestamp-fix",
   "name": "chat-timestamp-fix",
   "title": "Chat Timestamp Fix (UTC-3)",
   "description": "Painel alternativo de chat com horário UTC-3 e ordenação correta.",
