@@ -1,15 +1,20 @@
 {
-  "id": "chat-timestamp-fix",
   "name": "chat-timestamp-fix",
-  "title": "Chat Timestamp Fix",
-  "description": "Força o uso do timestamp do GM para padronizar a ordem do chat.",
+  "title": "Chat Timestamp Fix (UTC-3)",
+  "description": "Painel alternativo de chat com horário UTC-3 e ordenação correta.",
   "version": "1.0.0",
   "author": "Nicolas + ChatGPT",
-  "esmodules": ["scripts/fix-timestamp.js"],
   "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "13",
-  "scripts": [],
-  "styles": [],
+  "compatibleCoreVersion": "11",
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/chat.css"
+  ],
+  "templates": [
+    "templates/chat-panel.html"
+  ],
   "url": "https://github.com/SilverGlad/chat-timestamp-fix",
   "manifest": "https://raw.githubusercontent.com/SilverGlad/chat-timestamp-fix/main/module.json",
   "download": "https://github.com/SilverGlad/chat-timestamp-fix/archive/refs/heads/main.zip",

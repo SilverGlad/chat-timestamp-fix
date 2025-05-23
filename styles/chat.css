@@ -1,0 +1,28 @@
+/* chat-timestamp-fix/styles/chat.css */
+
+.chat-timestamp-fix-wrapper {
+  padding: 10px;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.chat-entry {
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-time {
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.chat-author {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.chat-entry div {
+  margin-bottom: 2px;
+}
